@@ -7,15 +7,15 @@ html, body {
 }
 
 #holder {
-	height: 200px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+  height: 200px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
 }
 
 #disclaimer {
-	position: relative;
+  position: relative;
   text-align: left;
   max-width: 600px;
   top: 40px;
@@ -27,9 +27,10 @@ html, body {
 }
 
 #top img {
-  width: 45px;
-  height: 60px;
-  margin-bottom: -5px;
+  width: 32px;
+  height: 65px;
+  margin-bottom: -7px;
+  transform: rotate(-7deg);
 }
 
 #top div {
