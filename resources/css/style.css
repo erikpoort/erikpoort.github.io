@@ -1,9 +1,54 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #515145;
+  background-color: #0B6E4F;
   width: 100%;
   height: 100%;
+}
+
+.peek {
+  position: fixed;
+  width: 300%;
+  height: 300%;
+  background-color: #F51AA4;
+  transform: scale3d(3,3,1);
+  z-index: -1;
+}
+
+.peek_top {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #FA9F42;
+  transform: translate3d(0,-100%,0);
+  z-index: -1;
+}
+
+.peek_left {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #2B4162;
+  transform: translate3d(-100%,0,0);
+  z-index: -1;
+}
+
+.peek_right {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #97DFFC;
+  transform: translate3d(100%,0,0);
+  z-index: -1;
+}
+
+.peek_bottom {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #E9CF4F;
+  transform: translate3d(0,100%,0);
+  z-index: -1;
 }
 
 #holder {
